@@ -1,11 +1,13 @@
 ## Pull the docker container
 
 ```bash
-docker pull tim-ganther/keplergl
+docker pull serge4nt/keplergl
 ```
 
 ## Run the docker container
 
 ```bash
-docker run --name kepler.gl -p 8080:80 -d tim-ganther/keplergl
+CMD: docker run --name keplergl -p 8080:80 -d serge4nt/keplergl -e MapboxAccessToken=""
+OR
+SCRIPT: run.sh
 ```
