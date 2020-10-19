@@ -15,3 +15,8 @@ CMD: docker run --name keplergl -p 8080:80 -d serge4nt/keplergl -e MapboxAccessT
 OR
 SCRIPT: run.sh
 ```
+
+change cmd to below if using something like ngrok
+```shell
+CMD ["webpack-dev-server", "--progress", "--disable-host-check", "--port", "80", "--host", "0.0.0.0"]
+ref: https://github.com/Tim-Ganther/keplergl/issues/1
