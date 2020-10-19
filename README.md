@@ -3,6 +3,10 @@
 ```bash
 docker pull serge4nt/keplergl
 ```
+OR
+```bash
+docker pull serge4nt/keplergl:nohostcheck
+```
 
 ## Run the docker container
 
